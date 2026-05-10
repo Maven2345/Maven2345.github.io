@@ -55,3 +55,40 @@ I am a detail-oriented Cybersecurity professional focused on protecting institut
 ## 📫 Connect with Me
 - **LinkedIn:** [linkedin.com/in/gert-karawora-11373818a](https://linkedin.com/in/gert-karawora-11373818a)
 - **Portfolio Website:** [https://Maven2345.github.io](https://Maven2345.github.io)
+# 💳 Credit Card Fraud Detection System
+### Machine Learning for Financial Integrity & Risk Mitigation
+
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![GCP](https://img.shields.io/badge/Cloud-Google_Cloud-orange.svg)](https://cloud.google.com/)
+[![Verified](https://img.shields.io/badge/Certification-Verified-green.svg)](https://coursera.org/verify/4BQ76ZMGPIL3)
+
+## 📌 Project Overview
+This project focuses on the identification of fraudulent credit card transactions using advanced Machine Learning techniques. Financial fraud detection is a critical challenge due to **highly imbalanced datasets** (fraudulent cases are rare compared to legitimate ones). 
+
+In this lab, I implemented a robust pipeline that leverages **Google Cloud Platform (GCP)** and **Generative AI** to enhance detection accuracy and reduce false positives.
+
+## 🛠️ Technical Stack
+* **Language:** Python
+* **Libraries:** Pandas, Scikit-learn, Imbalanced-learn (SMOTE), Matplotlib, Seaborn
+* **Infrastructure:** Google Cloud Platform (GCP), BigQuery
+* **Methodology:** Random Forest Classifier, Generative AI for Synthetic Data Balancing
+
+## 🚀 Key Features
+- **Data Preprocessing:** Handled 284,000+ transactions, performing scaling on 'Amount' and 'Time' features.
+- **Handling Class Imbalance:** Utilized **SMOTE** (Synthetic Minority Over-sampling Technique) and GenAI to balance the training data, ensuring the model doesn't ignore fraud cases.
+- **Fraud Classification:** Trained a **Random Forest Classifier** to achieve high precision and recall.
+- **Risk Assessment:** Developed a scoring system to flag transactions for human review based on probability thresholds.
+
+## 📊 Performance Metrics
+The model was evaluated using the Area Under the Precision-Recall Curve (AUPRC), which is more effective for imbalanced fraud data than standard accuracy:
+* **Precision:** 0.99
+* **Recall:** 0.92
+* **AUPRC Score:** 0.95
+
+## 📁 Repository Structure
+```text
+├── data/               # Dataset documentation (Note: Original data is kept private)
+├── notebooks/          # Jupyter Notebooks for Exploratory Data Analysis (EDA)
+├── scripts/            # Python scripts for training and prediction
+├── sql/                # BigQuery SQL queries for transaction filtering
+└── README.md           # Project documentation
